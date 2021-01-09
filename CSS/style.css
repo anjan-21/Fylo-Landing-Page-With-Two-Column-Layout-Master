@@ -20,3 +20,38 @@ body {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
 }
+
+/* Utility Classes Start */
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 5rem;
+}
+.flex {
+  display: flex;
+}
+.align_center {
+  align-items: center;
+}
+.justify_between {
+  justify-content: space-between;
+}
+/* Utility Classes End */
+
+/* -------------------- Navbar Styling Start -------------------- */
+.navbar_container {
+  padding: 4rem 0;
+}
+.navbar_nav ul {
+  list-style: none;
+}
+.navbar_nav ul .nav_item:nth-child(2) {
+  margin: 0 4rem;
+}
+.navbar_nav ul .nav_item .nav_link {
+  text-decoration: none;
+  color: var(--Desaturated_Blue);
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
+/* -------------------- Navbar Styling End -------------------- */
