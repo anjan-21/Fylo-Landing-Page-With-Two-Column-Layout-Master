@@ -99,3 +99,62 @@ h1 {
   width: 100%;
 }
 /* -------------------- Hero Styling End -------------------- */
+
+.bg_curve {
+  width: 100%;
+  margin: 10rem 0 -1rem 0;
+}
+/* -------------------- About Styling Start -------------------- */
+.about_container {
+  background-color: var(--Light_Grayish_Blue);
+  padding: 5rem 0;
+}
+
+.about_details {
+  width: 100%;
+}
+.about_details > p {
+  color: var(--Very_Dark_Blue);
+  max-width: 500px;
+  margin: 1.5rem 0;
+}
+.about_details a {
+  display: inline-flex;
+  text-decoration: none;
+  color: var(--Moderate_Cyan);
+  padding: 0.4rem 0;
+  border-bottom: 1px solid var(--Moderate_Cyan);
+}
+.about_details a img {
+  margin-left: 0.5rem;
+}
+.about_img img {
+  width: 100%;
+}
+
+.about .testimonial {
+  background-color: white;
+  width: 380px;
+  padding: 1rem 2rem;
+  margin: 3rem 0;
+  border-radius: 5px;
+  box-shadow: 0 0px 20px -5px rgba(0, 0, 0, 0.24);
+}
+.testimonial > p {
+  margin: 0.4rem 0 1.2rem 0;
+  color: var(--Very_Dark_Blue);
+  font-size: 0.95rem;
+  line-height: 1.5rem;
+}
+.testimonial .person img {
+  width: 35px;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+}
+.testimonial .person .details h5 {
+  color: var(--Very_Dark_Blue);
+}
+.testimonial .person .details p {
+  font-size: 0.6rem;
+}
+/* -------------------- About Styling End -------------------- */
