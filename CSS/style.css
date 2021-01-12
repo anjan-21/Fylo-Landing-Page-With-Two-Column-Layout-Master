@@ -65,28 +65,31 @@ h1 {
 
 /* -------------------- Hero Styling Start -------------------- */
 .hero_details {
-  width: 80%;
   padding-right: 3rem;
 }
 .hero_details h1 {
   margin: 1rem 0;
 }
 .hero_details p {
-  font-size: 1.3rem;
+  width: 80%;
+  font-size: 1.1rem;
+  color: var(--Very_Dark_Blue);
   margin: 1.5rem 0;
 }
 .hero_details form input {
   width: 54%;
-  padding: 0.8rem 2rem;
-  font-size: 1rem;
+  padding: 1rem 1.5rem;
+  font-size: 0.9rem;
   outline-color: rgb(194, 152, 194);
+  border: 1px solid black;
+  border-radius: 3px;
 }
 .hero_details form input::placeholder {
-  font-size: 1rem;
+  font-size: 0.9rem;
   color: var(--Light_Gray);
 }
 .hero_details form button {
-  padding: 1rem 4rem;
+  padding: 1.1rem 4rem;
   margin: 0 1rem;
   background-color: var(--Bright_Blue);
   border: none;
@@ -115,8 +118,9 @@ h1 {
 }
 .about_details > p {
   color: var(--Very_Dark_Blue);
-  max-width: 500px;
+  max-width: 600px;
   margin: 1.5rem 0;
+  font-size: 1.1rem;
 }
 .about_details a {
   display: inline-flex;
@@ -134,7 +138,7 @@ h1 {
 
 .about .testimonial {
   background-color: white;
-  width: 380px;
+  width: 370px;
   padding: 1rem 2rem;
   margin: 3rem 0;
   border-radius: 5px;
@@ -143,8 +147,8 @@ h1 {
 .testimonial > p {
   margin: 0.4rem 0 1.2rem 0;
   color: var(--Very_Dark_Blue);
-  font-size: 0.95rem;
   line-height: 1.5rem;
+  font-size: 0.9rem;
 }
 .testimonial .person img {
   width: 35px;
@@ -158,3 +162,117 @@ h1 {
   font-size: 0.6rem;
 }
 /* -------------------- About Styling End -------------------- */
+
+/* -------------------- Access Styling Start -------------------- */
+.access_container {
+  background-color: var(--Desaturated_Blue);
+  padding: 5rem 0;
+}
+.access .left_side {
+  flex: 0.35;
+}
+.access .left_side h1 {
+  font-size: 2rem;
+  color: white;
+  margin: 1.5rem 0;
+}
+.access .left_side p {
+  color: white;
+  margin: 1rem 0;
+}
+.access .right_side {
+  flex: 0.4;
+}
+.access .right_side form {
+  flex-direction: column;
+}
+.access .right_side form input {
+  width: 90%;
+  padding: 1rem 1.5rem;
+  font-size: 0.9rem;
+  outline-color: rgb(194, 152, 194);
+  border-radius: 3px;
+  border: none;
+  margin: 1rem 0;
+}
+.right_side form input::placeholder {
+  font-size: 0.9rem;
+  color: var(--Light_Gray);
+}
+.right_side form button {
+  width: 35%;
+  padding: 1rem 0;
+  background-color: var(--Bright_Blue);
+  border-radius: 3px;
+  border: none;
+  color: var(--Light_Grayish_Blue);
+  outline: none;
+  font-weight: bold;
+}
+/* -------------------- Access Styling End -------------------- */
+
+/* -------------------- Footer Styling End -------------------- */
+.footer_container {
+  background-color: var(--Very_Dark_Blue);
+  padding: 6rem 0;
+}
+
+.footer_details > div {
+  flex: 0.2;
+}
+.footer_details > div:nth-child(1) {
+  flex: 0.3;
+}
+
+.footer_details .contact_info div {
+  margin: 1rem 0;
+}
+.footer_details .contact_info div p {
+  margin-left: 1rem;
+  color: white;
+}
+
+.footer_details .links li {
+  list-style: none;
+  margin: 1rem;
+}
+.footer_details .links li a {
+  color: white;
+  text-decoration: none;
+}
+.footer_details .links li a:hover {
+  color: var(--Desaturated_Blue);
+}
+
+.social_media {
+  padding: 1.5rem 0;
+}
+
+.footer_details .social_media a {
+  margin: 1rem;
+  padding: 0.5rem;
+  border: 1px solid white;
+  border-radius: 100%;
+  text-align: center;
+}
+.footer_details .social_media i {
+  width: 20px;
+  height: 20px;
+  color: white;
+}
+.footer_details .social_media a:hover {
+  border-color: var(--Desaturated_Blue);
+}
+.footer_details .social_media a:hover i {
+  color: var(--Desaturated_Blue) !important;
+}
+
+.attribution {
+  /* font-size: 11px; */
+  text-align: center;
+  padding: 1rem;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+/* -------------------- Footer Styling End -------------------- */
