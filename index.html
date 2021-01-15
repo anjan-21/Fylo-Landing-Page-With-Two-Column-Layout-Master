@@ -23,6 +23,7 @@
 
     <!-- External CSS -->
     <link rel="stylesheet" href="./CSS/style.css" />
+    <link rel="stylesheet" href="./CSS/mediaQuery.css" />
   </head>
   <body>
     <!-- ******************** Navbar Start ******************** -->
@@ -58,7 +59,7 @@
             them wherever you need, share and collaborate with friends, family,
             and co-workers.
           </p>
-          <form>
+          <form class="flex align_center">
             <input
               type="email"
               placeholder="Enter your email..."
@@ -88,9 +89,11 @@
             Securely share files and folders with friends, family and colleagues
             for live collaboration. No email attachments required!
           </p>
-          <a href="#" class="flex align_center"
-            >See how Fylo works <img src="./Assets/icon-arrow.svg" alt=""
-          /></a>
+          <div class="fylo_works flex align_center">
+            <a href="#">See how Fylo works</a>
+            <img src="./Assets/icon-arrow.svg" alt="" />
+          </div>
+
           <div class="testimonial">
             <img src="./Assets/icon-quotes.svg" alt="" />
             <p>

@@ -1,0 +1,204 @@
+@media (max-width: 1024px) and (min-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  .hero_details {
+    padding-right: 2rem;
+  }
+  .hero_details p {
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  .hero_details form input {
+    flex: 0.7;
+    padding: 0.8rem 1.2rem;
+    font-size: 0.8rem;
+  }
+  .hero_details form button {
+    padding: 0.9rem;
+  }
+
+  .about_details > p {
+    font-size: 1rem;
+  }
+  .about .testimonial {
+    width: 300px;
+    padding: 0.8rem 1.8rem;
+    margin: 3rem 0;
+  }
+  .testimonial > p {
+    font-size: 0.8rem;
+  }
+
+  .access .left_side {
+    flex: 0.4;
+  }
+  .access .left_side p {
+    font-size: 1rem;
+  }
+  .access .right_side form input {
+    padding: 0.8rem 1.2rem;
+    font-size: 0.8rem;
+  }
+  .right_side form button {
+    width: 50%;
+    padding: 0.9rem;
+  }
+
+  .custom_footer .logo img {
+    width: 150px;
+  }
+  .footer_details > div {
+    flex: 0.3;
+  }
+  .footer_details > div:nth-child(1) {
+    flex: 0.5;
+  }
+
+  .footer_details .social_media a {
+    margin: 0.6rem;
+  }
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 3rem;
+  }
+  .container {
+    padding: 0 3rem;
+  }
+  .hero {
+    flex-direction: column-reverse;
+    text-align: center;
+    margin: auto;
+  }
+  .hero_details {
+    padding-right: 0;
+  }
+  .hero_details p {
+    font-size: 1.5rem;
+  }
+  .hero_img {
+    margin: 2rem 0;
+  }
+
+  .about {
+    flex-direction: column-reverse;
+  }
+  .about_details h1 {
+    text-align: center;
+  }
+  .about_details > p {
+    font-size: 1.5rem;
+  }
+  .about_details .fylo_works {
+    margin: 0 auto;
+  }
+  .about .testimonial {
+    width: 400px;
+    margin: 3rem auto;
+  }
+  .testimonial > p {
+    font-size: 1.1rem;
+  }
+  .about_img {
+    margin: 2rem 0;
+  }
+
+  .access {
+    flex-direction: column;
+    text-align: center;
+  }
+  .access .left_side {
+    width: 100%;
+  }
+  .access .left_side p {
+    font-size: 1.5rem;
+  }
+  .access .right_side {
+    width: 100%;
+  }
+  .access .right_side form {
+    align-items: center;
+  }
+  .access .right_side form input {
+    width: 80%;
+    margin: 1rem auto;
+  }
+  .access .right_side form button {
+    width: 80%;
+  }
+
+  .footer_details {
+    flex-direction: column;
+  }
+  .custom_footer .logo img {
+    margin-bottom: 1rem;
+  }
+  .footer_details > div:nth-child(2) {
+    margin: 2rem 0;
+  }
+  .footer_details > div:nth-child(4) {
+    margin-top: 2rem;
+    text-align: center;
+  }
+}
+
+@media (max-width: 425px) {
+  .container {
+    padding: 0 2rem;
+  }
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .navbar_container {
+    padding: 2rem 0;
+  }
+  .navbar {
+    align-items: center;
+  }
+  .navbar .logo img {
+    width: 80px;
+  }
+  .navbar_nav .nav_item a {
+    font-size: 0.8rem;
+  }
+  .navbar_nav ul .nav_item:nth-child(2) {
+    margin: 0 1rem;
+  }
+
+  .hero_details p {
+    width: 100%;
+    font-size: 0.7rem;
+  }
+  .hero_details form {
+    flex-direction: column;
+  }
+  .hero_details form input {
+    width: 100%;
+  }
+  .hero_details form button {
+    width: 100%;
+    margin: 1rem 0;
+  }
+
+  .about_details h1 {
+    font-size: 1.2rem;
+  }
+  .about_details > p {
+    font-size: 0.9rem;
+  }
+  .about .testimonial {
+    width: 300px;
+  }
+  .testimonial > p {
+    font-size: 0.66rem;
+  }
+
+  .access .left_side p {
+    font-size: 0.95rem;
+  }
+}

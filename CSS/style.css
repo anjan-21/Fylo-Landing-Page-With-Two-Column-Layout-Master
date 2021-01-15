@@ -76,8 +76,9 @@ h1 {
   color: var(--Very_Dark_Blue);
   margin: 1.5rem 0;
 }
+
 .hero_details form input {
-  width: 54%;
+  flex: 0.45;
   padding: 1rem 1.5rem;
   font-size: 0.9rem;
   outline-color: rgb(194, 152, 194);
@@ -89,7 +90,8 @@ h1 {
   color: var(--Light_Gray);
 }
 .hero_details form button {
-  padding: 1.1rem 4rem;
+  flex: 0.3;
+  padding: 1.1rem;
   margin: 0 1rem;
   background-color: var(--Bright_Blue);
   border: none;
@@ -122,15 +124,20 @@ h1 {
   margin: 1.5rem 0;
   font-size: 1.1rem;
 }
-.about_details a {
-  display: inline-flex;
+.about_details .fylo_works {
+  border-bottom: 1px solid var(--Moderate_Cyan);
+  width: 175px;
+}
+
+.about_details .fylo_works a {
   text-decoration: none;
   color: var(--Moderate_Cyan);
   padding: 0.4rem 0;
-  border-bottom: 1px solid var(--Moderate_Cyan);
 }
-.about_details a img {
+
+.about_details .fylo_works img {
   margin-left: 0.5rem;
+  width: 20px;
 }
 .about_img img {
   width: 100%;
@@ -169,16 +176,16 @@ h1 {
   padding: 5rem 0;
 }
 .access .left_side {
-  flex: 0.35;
+  flex: 0.38;
 }
 .access .left_side h1 {
-  font-size: 2rem;
   color: white;
   margin: 1.5rem 0;
 }
 .access .left_side p {
   color: white;
   margin: 1rem 0;
+  font-size: 1.1rem;
 }
 .access .right_side {
   flex: 0.4;
@@ -225,7 +232,7 @@ h1 {
 }
 
 .footer_details .contact_info div {
-  margin: 1rem 0;
+  padding: 1rem 0;
 }
 .footer_details .contact_info div p {
   margin-left: 1rem;
@@ -234,7 +241,7 @@ h1 {
 
 .footer_details .links li {
   list-style: none;
-  margin: 1rem;
+  padding: 1rem 0;
 }
 .footer_details .links li a {
   color: white;
@@ -247,7 +254,6 @@ h1 {
 .social_media {
   padding: 1.5rem 0;
 }
-
 .footer_details .social_media a {
   margin: 1rem;
   padding: 0.5rem;
@@ -268,7 +274,6 @@ h1 {
 }
 
 .attribution {
-  /* font-size: 11px; */
   text-align: center;
   padding: 1rem;
 }
