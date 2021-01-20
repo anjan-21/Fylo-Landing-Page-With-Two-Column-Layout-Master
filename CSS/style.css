@@ -25,7 +25,7 @@ h1 {
   font-family: "Raleway", sans-serif;
   color: var(--Very_Dark_Blue);
   font-weight: 700;
-  font-size: 2.8rem;
+  font-size: 2.5rem;
 }
 
 /* Utility Classes Start */
@@ -71,14 +71,14 @@ h1 {
   margin: 1rem 0;
 }
 .hero_details p {
-  width: 80%;
+  width: 90%;
   font-size: 1.1rem;
   color: var(--Very_Dark_Blue);
   margin: 1.5rem 0;
 }
 
 .hero_details form input {
-  flex: 0.45;
+  flex: 0.5;
   padding: 1rem 1.5rem;
   font-size: 0.9rem;
   outline-color: rgb(194, 152, 194);
@@ -176,7 +176,7 @@ h1 {
   padding: 5rem 0;
 }
 .access .left_side {
-  flex: 0.38;
+  flex: 0.42;
 }
 .access .left_side h1 {
   color: white;
@@ -221,14 +221,19 @@ h1 {
 /* -------------------- Footer Styling End -------------------- */
 .footer_container {
   background-color: var(--Very_Dark_Blue);
-  padding: 6rem 0;
+  padding: 5rem 0;
+}
+
+.custom_footer .logo img {
+  margin: 1rem 0;
+  filter: brightness(0) invert(1);
 }
 
 .footer_details > div {
   flex: 0.2;
 }
 .footer_details > div:nth-child(1) {
-  flex: 0.3;
+  flex: 0.35;
 }
 
 .footer_details .contact_info div {
